@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+
+    <form action="/api/jobs/{{job['id']}}/apply" method="POST">
+        <div class="mb-2">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required  placeholder="Enter your full name">
+        </div>
+        
+        <div class="mb-2">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="mb-2">
+            <label for="linkedin">LinkedIn Profile:</label>
+            <input type="url" id="linkedin" name="linkedin"  placeholder="Enter your LinkedIn URL">
+        </div>
+
+        <div class="mb-2">
+            <label for="education">Education:</label>
+            <textarea name="education" required placeholder="Describe your education background"> </textarea>
+        </div>
+
+        <div class="mb-2">
+            <label for="experience">Work Experience:</label>
+            <textarea name="experience" placeholder="Describe your work experience"></textarea>
+        </div>
+
+        <div class="mb-2">
+            <label for="resume">Resume URL:</label>
+            <input type="url" id="linkedin" name="resume" required placeholder="Enter your resume URL">
+        </div>
+
+        <div class="mb-2">
+            <button type="submit">Submit</button>
+        </div>
+
+        
+    </form>
+</body>
+</html>

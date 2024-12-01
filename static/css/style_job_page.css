@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner_img{
+    padding-top: 65px;
+    width: 85%;        /* Full width */
+    height: 400px;      /* Set a height for the div */
+    background-size: contain; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#submit_img{
+    padding-top: 65px;
+    width: 65%;        /* Full width */
+    height: 350px;      /* Set a height for the div */
+    background-size: contain; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    padding-top: 40px;
+}
+
+.navbar {
+    position: fixed; /* This makes the navbar fixed */
+    background-color:white;
+    height: 60px;
+    width: 100%;      /* Makes sure the navbar spans the full width */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centers the menu items horizontally */
+    padding: 8px 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+
+}
+
+.navbar a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #db9f9f;
+}
+
+header {
+    color: black;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.contact{
+    color: black;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dd6f6f;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    background-color: burlywood;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
