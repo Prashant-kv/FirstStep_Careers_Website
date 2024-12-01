@@ -5,7 +5,7 @@ conn = sqlite3.connect('jobs.db')
 cursor = conn.cursor()
 
 # Execute the query to create the table
-sql_query = """ CREATE TABLE IF NOT EXISTS contact (
+sql_query = """ CREATE TABLE IF NOT EXISTS application (
            id INTEGER PRIMARY KEY AUTOINCREMENT,
            name VARCHAR(250) NOT NULL,
            email VARCHAR(250) NOT NULL,
